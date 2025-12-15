@@ -1,0 +1,15 @@
+// ID        S5w2wQtDOgrLALC/tVEcqkj3hStW6Y+62XW1uB6Mo3macZiTcszkm3ywOWxR34P/BuUzW+/GfooLq13KNKmdQT610H81St++T6HmcFgNkOlhb9A+TB1qJsmz7xCe6K0+f1LF1iHFOOR+31OkO44r3y2uomdOLKyE3fGSu/ESg39adg9ZwC1wD/HTIgpKtQUL2rLDQN0+J7OmdWtlLfKuNXoluY/KPpAhqKM5pQh6CAHyZL3hueZ87psOTzLNrEV7S7vF29xJ4iuhClnJCMjLNl9QRGM7h9+FfHQ4rKp8pd1Iv13DnYuaiHsxew/5XAtcu14t29WVWjr/Z88PBLDV+hhX9SnkVhA8feA12DBiz6hAlc0VEobwXHjs8N23YXmFg0sUF3rhAs8cOS1QS9V9k9HBiaWHlHflHmiMuCPqdvvfVFySbEDSEhhNAvwN7HgSvgz6rdtculKJbS7unLltPgZuFqOLRB1tqUavq+VI3Xs/nvCZQl+T1Ui5on5nOmvZYt4ddJiG7Oogh+hofeOmwNRAGmiyxZeIduvf/FUATV+kxkMC+SLV1oWetH+frpJiGqb0D7GRvEI6N1UDeR714L2UNfa/pxKIvTGtLnCOSIG7n7DyuA2TscHGXK0aLPjNn81ZW5C4hEg5nZDvjCsk21l6f4R07s9n6uMl3M5R84uyL0OXTVb3z5r/J63d/4ZF7J1jqEqzwcu8gDQ3NnSzxcXGJDTHV/V0oJah5U6Y2fTZlmu/6oN3vgCCE4RkL5+L1T7Afn45SITJcG7SBZQyuCdOxnQ0TlYHwBV1L996bmEnHGS1lQYNXZp5XesJWt4qgChwan3AW1mZ5of+14nSFhDcuA3pYRKwCA/RJAuFYQxTPLREGW5E8yrg7+D75jR5Um895wbMixYNVHq2/nCOcWUSK1omqwUrFI2Grnc45vbUVe+zBAtYvdovuPPgn5d0CiS2ZWxl10y3BodDZN5qK6j6QZAOOxwGnDsZo0Vi4nUyuS0lJzklsk09KaFtxZDc5T7zuR9bd+1rOPmkZLZo285RX9AcNrNNhsx2gVEcWb6rcZFe+O8/bfmNvonTeJSOV6xzW0IXv861ep9perZIZZQRnA1W7lHGuFiuzmZF4WA2JQa3w/c3skcEhMR/BkdC1faDwtqTcgeVjLSbopHg93Q7gc111xkyJj1tMK3kY7GwxrnqUlcPgcYqkZEzo6Mi9S4U4H0AWun7C1QFL3g=
+// DATE      09-10-2024 12:27:10
+// VERSION   Algorithmi 21.11
+
+
+BEGIN MAIN_PROGRAM_NAME
+        READ REAL ncv COMMA vtsv COMMA sf COMMA vcv "Escreva:\n-O número de carros que vendeu (ncv);\n-O valor total de suas vendas (vtsv);\n-O seu salário fixo (sf);\n-O valor que recebe por carro vendido (vcv).\nPor essa ordem." 
+        DEFINE REAL sfv SET 0.0 COMMA tv SET 0.0 COMMA vt SET 0.0 COMMA tp SET 0.0 COMMA p SET 0.0
+        EXECUTE tv SET vcv MULT ncv
+        EXECUTE tp SET ncv MULT 5
+        EXECUTE p SET tp DIV 100
+        EXECUTE vt SET tv MULT ROUND_OPEN 1 SUM p ROUND_CLOSE
+        EXECUTE sfv SET sf SUM vt
+        WRITE "O salário final do vendedor é "  COMMA sfv  COMMA "€." 
+    END MAIN_PROGRAM_NAME

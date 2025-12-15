@@ -1,0 +1,11 @@
+// ID        lZy10AFXowoJAK2/IxxOLwLnyrQcU//t8mYzZ4A53hYNyr1F/VQAIL9gO284AXZ94fc1vvcwlXFDg82YXivjSbs8cKmYoNXLWlHV4yI7tmiRj2XD3WXWSXMqiLXrby918Nynbbt5EyPVRonVtsZ6F0BJnt059Ij8ldvnMv7O0d50VIKWcBaElN3cQ2A0ygWCVrGeEYHIK8uhR0qy2rQC0ELweG+J21BqTwQg7pin7CW9kfDQ7CgcVbbFicq9fCLOYbXQ1oosQBfFg3kMsMzoGnxT5Hyo3XrdI5LBF/1Gulxl2hKPWDsdtJtezvumcIHtB58kQRtytFxLp2BbwE1HK4KDTatJwgl1DNEuPGhNicqUpk87l78l73mMDi8B8DE7wZ4forlKhHjUduv0tRIb++zdEiE2sN6fuN4B38r2y7FC9Byu0vJk31JXs4btlPqeuNz8WyB4GecN2XnDtaAegOuF4RgjRb655guKfqKg6/56bhgt6EK8w9cWz/plH8Gzjt8n/dbHhq72ugL5sfWTGegad8Gh00YN8jbZAMVnkDX2Fz+SN3aF2N30w28RA5DMywfWf77Yv8OtqpTzh9BWgJj8e5msfLHnGa7yzV0Fop0P6nXD5gI6oAts3Y9fl8k/B/AK5GFyCAgoU+tqdNef1Qv4MhiSPyNWXcu8iFXG31/yZLxh8tja6VAcylKcfZ8zCtmt4bfVm8qzO1k4ZoJpPCB8rdRyvEi0s0VUXzqrxUja8Ndu5R9y8S6ujamkS+d7oyKjHVZHXpJ8mbHylM6xN/6qIm51r2cdVQd7lSZ3XeanDGoxaiWbXWL7IOn+UVjzw+N7ntmQBDUa0HwL+uR8TwV13rjV2Hle+rDnyO567DN8mu5eaiYnvARdRvYxdEviVEUcndigVHsT9u/75XARIYbFqAB8epQKQ6kqyct01no7D7kgK8dWyepaTTx1ps7F4JYA75r/CwINfHg=
+// DATE      02-10-2024 13:27:57
+// VERSION   Algorithmi 21.11
+
+
+BEGIN MAIN_PROGRAM_NAME
+        READ INTEGER base COMMA altura "Escreva a base e altura do retangulo respetivamente." 
+        DEFINE INTEGER area SET 0
+        EXECUTE area SET base MULT altura
+        WRITE "A área do retângulo equivale a "  COMMA area 
+    END MAIN_PROGRAM_NAME

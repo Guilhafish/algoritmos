@@ -1,0 +1,14 @@
+// ID        TZwiwQNDh1jvAM2/CpXMeC3NvW0KtYSOT5iXZMW0Xmy/GJ+Rskfi3OuI/ChGiE7emR+ac1cz7oBFL3hvfNsz45EXhgvVxq5k8ax7T2s6XpsQdJg050/GeV4TO7pv676170EX6CjATDzHZhnRrI86ayAEhj7UGgTFUhUvwbOrvM1ez+XlbXmI64vx/5kjBqt3WruT4Hw+4DygOhIkkXnHaArqTV/QyNh1onSEObmhP/nm5kOKRDSEwArEVVlXjcjZHZn8ulbtxzprQjv53KnwKOkuZUW+D1M8jHpPPXeW6rRuB8Pu0w/Ly+fvguT+YbuKgza68XRTlxgsBj6glaoVVFXyIzRylGCcvI6TgSftjYXILMdFREMENRBdCFps2HYHfq+sfs3DpCSnnkSPCGDTztZ69zET6D08Xwf+oTBGp3kl7ky3o9F85OAT5s+3F/psAdQxW4phFvJiKHeHEUyvOHiy+Khlfcb+s+xM1wfqYVhXnWhodDW/nUnnqQ7zvli44BP0yl37cf/27bgTvtNBt8QcQOiLI154lUOLAeJV+zjdltm1Jo0WtM6yPZn0kUsr/qOB0FC7oc2r0fKvrqTVsr3ni5Kvsux9s3IodKezrdZPh9kErxgdkh1TuYN07VdeOf1O/rLRlzjyYOuf/WsIIPadFfJa8bpQoGFvOH/NPiuNkEuXJTzmDuapTaw73o1DMVxJP16ARy0PzXydkOgVifoBU0aDhYq9zJ+x4YlqmbThAMc/aGJssjzOOA3OnyXm7rXdFTfnpEBwZI8rX3MBwbuMyHZov7SxfnagwNksZXt71QVijyQN7UqYOcSpZHr8J1daPLtbIjB8WXiUtNH+SqbjQQNm1+qlfKnxVCH7JxGoiYJ9igJ4YyYc1eTNtNWs1XS25ruRUUVkGcc0vlngYwBvon8JSgVgeA==
+// DATE      30-10-2024 12:12:54
+// VERSION   Algorithmi 21.10
+
+
+BEGIN MAIN_PROGRAM_NAME
+        DEFINE INTEGER cont SET 1
+        DEFINE INTEGER som SET 0
+        WHILE cont LESS_OR_EQUAL 20 
+            WRITE "\n"  COMMA cont 
+            EXECUTE som SET som SUM cont
+            EXECUTE cont SET cont SUM 2
+        END WHILE
+    END MAIN_PROGRAM_NAME

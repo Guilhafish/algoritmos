@@ -1,0 +1,21 @@
+// ID        F5xBwRdDKgyqAFJ/egcyJrkiLyqjo/i7j3dLny+OohoPldds2jPbzL1iIxpE3Od3andWi2Vts4tHR62EKZ6Ok090muzAlZyLUbkS7XvssIOhxYcSnDeatmEpgK8kSYfxW8vDw2xekqvzEKEfyrFENa1IT5r605ysn/rjbuiV1dyetXCnJ7DJs5E+xOcJepfAyUE+Q3/XdHWXJNkjC6fr9e+XYPfSr+4aFNPy/d3ALept1eiO1yP1jUR0Pu1bELp6NHf2Sf6HjipwmDSGx713yZz0Pyihac1/S5KO37lahnnfuM69n/1SzVcfj1RcHdJWao8ErQAqcRCQUsDJaK45/Y42a4VwAg2E1d7idtsAAZMLWPoeG0hmPFBwwVGTN73KrgNicxS3/K9EQh+VwmyXORF0idvOO6FeiTq8Kq1+n7W0bJ+NzaoatT2McbZYt7VgWlzIq0vU5H0fvoDlD9L7BFbH0fEP4jryHbxyj2u1g4+8MwgztU2k6VdYhOpMZ41ybCgqEU0FT2TCEXNWNa6xaDVJr81Ix1sxc2G6kS6ta4Z+XIs84MXDJzI5OrpMagO9g4QmUuwsryH0VEiKGf+fq6/Yndn/hW7VeqSWC+q17+nvJIg2TYbBLJrnv2d02NiqdjK2+i69RkRuwP5LGykzdYNCNaVkXkFxxrHtou3TCKfEXuf6p6Gqe1zV+QJZqGkg5nlPtUtv/3iXPiP3jyanwryfN/YtHPnKHw1RcYYBuS7beLrQQhc6RfNOdYj4Nos6jZUixGvZwUVXy/X8BDK7U3Gu158NpQ5uZoD9o1hgQaAC+8InMF3F6iNKPT/9S/DY94fFMEBaBr8Ywbxuj4KpPVgDsH0sTcFRlMYLQBRUCtTIQedoe/IsAtFpn9fYWjGAxHyg00Bwp0Ok4yKg9WBmstiNd8I/ryq3fEk0OOUyEoVu13WbVj7mU2FAPjsS91ZgWoY27DTS2MZyELaI0l6n4ZlniCJqWhw1sMYy2QsYrrWnVM9GgWR4ddrve3sH8ycjpNsLHoZt2ObXGcQ80VfPzl/vO6GVKW6XikrXvanwEQAB4fCL2AW8eA==
+// DATE      15-10-2024 12:26:51
+// VERSION   Algorithmi 24.09
+
+
+BEGIN MAIN_PROGRAM_NAME
+        READ INTEGER val1 COMMA val2 "Escreva 2 números diferentes." 
+        IF val1 GREATHER_THAN val2 
+            WRITE "O número maior é "  COMMA val1 
+        ELSE
+            IF val2 GREATHER_THAN val1 
+                WRITE "O  número maior é "  COMMA val2 
+            ELSE
+                IF val1 EQUAL val2 
+                    WRITE "Os dois números são iguais" 
+                END IF
+
+            END IF
+
+        END IF
+    END MAIN_PROGRAM_NAME

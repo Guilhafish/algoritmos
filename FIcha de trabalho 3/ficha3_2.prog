@@ -1,0 +1,11 @@
+// ID        q5zkwf93pQh0AJO/w9NzDAumYH00c+hYZUypahlPM/tDEl45IIiGaCwQzEhB3zXkFG7ZFFplFn+a7Q6NhbEDE6ycfKYFeo0gPEYzDNVI51lKIQt9ktQA2/+wi27cRCHiJeLfBkKtHca94mxmjHNH/iQ6ZbdTHwz33yPgxBeeTvoYd6KEFdKiVwZFSNWi99PxbEYeo2chKiLr9YhvPkr3a/isKJgPAJ4dcQaXKnqvRGKXN7lomtddie+vsJ/u4MnPm+zp488R5u5SdgZ81smPVjplYGe4xvAbRRDyDe2sUcnpL8b5qEF5f+mQ76CKvQ5v5f5t3S2XDop91gl+BYrPkaou2fYe+3t3N7J8nEuUF4umr/VxDWB0uY21ieA2Db6Z9gbmP0M9qbitruafEu16vaV2tRNSaqEvKH/DyJT+glPUhuuMWubEtjzH2IPvv0rHnU80z+6OreRDELNubZYTxh5fY3bLVyev7gLoniQ+AGoY/8PPQXqmxiy8abkgMYjOP45VHRPBkGGaMDvf/6Ur4UvlSj1KVJ/VimTUfhvHifHorH66JUx3wKwclrtY6+tzYK9uREDfGRgjccE2Sb45LhUoPFXKmR3j46sfETmHe2+WsIcFMP/by97NtdlbKTGrtDZNuiDglGqpLaplhELNtzQWJ+s8F5eXIoRG60XSoX42AGu/Mc2LtHvvKF9lbtShqFvI3Q+2BY6tgb/7uLqB4emzpiDp3XGjDzikoyHX1/Dbk0Y1wWfgjr1l9M0dYrCQFwz+5dSOBhfxoswgaC4u57tLjwATp9La1r+9jbROCyClj8sp3i5UAGncN60eWnXzNvfkmax7qbwy2Ggv8FGDMrE/n4fV/JxniA43kLA+EZu2j2f+Xa/O9zEQWvLEARi/zISaRkV/UJi+WdtwztKBlJOaL4dFlcYB+tov6aA8V4YOERlMH86RsSLdktDZcFeytxO/k1cOsmq524N1VJCJa6V/JnCpPy4e+yl6Raqureg7zWWbNalOTeCcAFbh9Qk4BaR4
+// DATE      01-10-2024 12:35:12
+// VERSION   Algorithmi 24.09
+
+
+BEGIN MAIN_PROGRAM_NAME
+        READ INTEGER teste1 COMMA teste2 COMMA teste3 "Nota dos testes?" 
+        DEFINE INTEGER media SET 0
+        EXECUTE media SET ROUND_OPEN teste1 SUM teste2 SUM teste3 ROUND_CLOSE DIV 3
+        WRITE "A média dos três teste equivale a "  COMMA media 
+    END MAIN_PROGRAM_NAME

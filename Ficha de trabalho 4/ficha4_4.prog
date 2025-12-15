@@ -1,0 +1,15 @@
+// ID        uJxBwQFjkQpUALK/u6q2DrfXC0ux6h4dg2uA+hvowiP9xcpBLWUYMbmC58k5Xw5PWTw5lH+bU+zzN+HSbBsbIGBuyZyzVzj6gGPr3YHM+nLFUxh648vGVUakq0EdyoaJvKST/T84lGvcY7CDLJ9IiF7wbvIwL5/S+SUEcPumhcBSS0n9yf7FCJcfA4nuIx1E32PDHTAjcCeq+/xFqralZZz4VGnFAXBYqBTupwuNb2Jd7fGYyuk2avGQ1q8EBlxY8MnhmKItxUvy6RbjijB8h29n9XbuxwPHjGw8mtVZE0U48IQszN1V7NiVdXr/uUBr9jn4gRseac/JnEX9i4tVtEc8bDrN4BMXRR96uzIA8pNcCq+SI/HxA4CDW8WnXysHh5KKX9CB1rL7eec/1KuMFg2/Im6TQoG/lqwEsizzjMbAltt6ItSQihVuprj1JSQObI5JtlzglAbzPq8OEg8nJSXM5dc0oQ7DfC6sONC61VhBUrS14+NXvCKDqwMP/otrtZkVQp4MTpsnxnpuzdBwk4hiEUjogOqNToxg9tYRUAPkxn+WVi5EX67rzfLQfMKmR6ylW025Jjh0ETf/Zvqpm2vP11QDR5lM3Ep3MvlLqNjvtIrURYqUFmDYRuxGqyHAV+oy4RY8JyMXFy65yP2gjgp8RfsDr8wcnG9QkBWe75uVpMK4x2kVBMpkG2453+btLUnrlrKCYXP/OelnTPn2JY5w1kbeoaERqp3hgugCMDTc5JiEi3nv3To0ft6p7/5OplV+VOCB3uIZI4Ggf01oZ6LFW30ni9ILTT+B6khRYO5Ae+pFI74WFRrEnsQ0d3ySNlKjLErZxapCvPfSHmKcLU2ImptU1jS7MOJDzrffOtaK3LmEds5hXsssGN7rKCvHTzYxsmrSTmjsRSuCFAmfuIf5604Y9dPgFR56sJGy1o4VWumwLusKdToiGrRxDU4heNF8rqnTzJ7p45cpwEhAO3pNQarXyjwI/deykn5lqL6JhLYN1oYhSbnuEQojpg3AK9zASgph2UsV+KZBI7mN2mX8vCb5vtp046PSnW25uKplwONAcxfJm0SvNrbGkzTzXzDcH2nxC7Q8xdOeeYcOjVZ7gLNnTReOa/J6jW7bZ9E/cErCcU/ueexMHnlYso2i8zB57jI2ZSb2TLC5vCtgJ/m12IJLtsOmFhpq+tJmbHXcXA2qYVqhnlb2CVhfpbQOazQeqYFmfeyvfVYsPkKWGHJiJh4FQkcU/nop+57Pbimdjf1qdnfVlJ6Ov+CiAKvhfweFBVh4
+// DATE      07-10-2024 16:01:29
+// VERSION   Algorithmi 24.09
+
+
+BEGIN MAIN_PROGRAM_NAME
+        READ INTEGER neleitores COMMA vbranco COMMA vnulos "Escreva o número de eleitores, os votos brancos, votos nulos e os votos válidos, respetivamente." 
+        DEFINE INTEGER vvalidos SET 0
+        DEFINE REAL pvb SET 0.0 COMMA pvn SET 0.0 COMMA pvv SET 0.0
+        EXECUTE vvalidos SET neleitores SUB ROUND_OPEN vbranco SUM vnulos ROUND_CLOSE
+        EXECUTE pvb SET ROUND_OPEN 100 MULT vbranco ROUND_CLOSE DIV neleitores
+        EXECUTE pvn SET ROUND_OPEN 100 MULT vnulos ROUND_CLOSE DIV neleitores
+        EXECUTE pvv SET ROUND_OPEN 100 MULT vvalidos ROUND_CLOSE DIV neleitores
+        WRITE neleitores  COMMA " pessoas foram votar, dessas "  COMMA neleitores  COMMA " pessoas:\n"  COMMA vbranco  COMMA " eram votos brancos ("  COMMA pvb  COMMA "%),\n"  COMMA vnulos  COMMA " eram votos nulos e ("  COMMA pvn  COMMA "%),\n"  COMMA vvalidos  COMMA " votos validos ("  COMMA pvv  COMMA "%)." 
+    END MAIN_PROGRAM_NAME

@@ -1,0 +1,18 @@
+// ID        VJwXwQ9XIgiwAAS/eFodprJs550+0h1JcLvI7XzzcjWxBEgV7TwgFHE9+RFbEd7Yfst2xvyGZ0Bh5HYxFADqL89V01sRfJpERYr38Vs506AVJIMitXXPVnHVFG2QJ8J5jlOmhQ3LM011BrUcoS49WM1KRGmyWwAU5PppsbPOP9AJsm3/tj6Z8BZgb8HmQsZs6SHcBCyiGZ/SqgK6NSVVRns9Wjeq5fjaeyUsIA9J3EcnovrHz2Zhp+Ke/tjr7Ezjkja7GQa3/J6Aul3IB82BUdRHUYJXPMZTbfk9zwU3Svq7LS1W1FYoM9BbwwbmDB1izLlXSuy/x8sFVWU1lwzKIjadoxzpNhtV2LoUgeddf8T6BFanIrymrrb7aRU7b9QKqfmb2OqpmQJZn5RGmuEaT/4uFWYKnjokf9M7lRA/cN4/oRboiJRQkRO9nFo+TF6bKCPQTyC5j+mccVNslzKW9uAladxQOtlYLsZp7jlgZ8hCcytiNVoiv8Yv+i2KriJLEU5zBcHgpbo8muBFeaqkyh21qd7p9GJ6HAmfyvTXGeX5RoidjDjlLGpwSf5Z23rwi9/NlTOmacokd30d+xHMupObrsXYu/S8NsqiCj6T2S7c9a4mN4oVlL56G3t7t2BP5p0nvqmtNqi4GY/3W//7Ayv1L1v5WJG2yKPG5QpYL4MBreCAkMavbNeTA/21Bjz2wucMJacUxJGMprbP8WZCsrZasODI3s3OY1Zr1PDUp/DKy8Wpvr7zGu9K6qDJs9B11Tl15ELdx4Ohe6CExnJMTo/A2Gcg6H/v/44TdI7cwAGqyxNXliPj3rUSWrb+QuBv4DtU8RmaU+/Z+0E30rgW5sUJSS4Z7e3kjof+Hb8mZQPLi+erW0S8NG/zESfxyd6iHvYDYmUP8S100BiMycardTzOMoMRdQ4HRRhGQ6S63LM6xun8W/nGMt7qbPmWblVkUwh4YlvI6GiwW4GHK05Nrzl6Jfpj37MMDsBdvXBCp7QNHbQm70pQwwHMQJc5HlAGpEoVSvMmJnxM5H2ap7/UOLb7b/jlfqPnngTgYADxov0JHwXGeA==
+// DATE      05-11-2024 11:45:40
+// VERSION   Algorithmi 24.09
+
+
+BEGIN MAIN_PROGRAM_NAME
+        READ INTEGER X COMMA Y 
+        DEFINE INTEGER var1 SET X MOD 2
+        IF var1 EQUAL 0 
+            WRITE "O número é par" 
+            DEFINE INTEGER mult SET X MULT Y
+            WRITE "\nA multiplicação de X com Y é "  COMMA mult 
+        ELSE
+            WRITE "O número não é par" 
+            DEFINE INTEGER sub SET X SUB Y
+            WRITE "\nA subtração de X com Y é "  COMMA sub 
+        END IF
+    END MAIN_PROGRAM_NAME

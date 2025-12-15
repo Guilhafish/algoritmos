@@ -1,0 +1,13 @@
+// ID        XZzbwQFWuQrWABRfwk7tWiBMcc37CgTMs8w9OkA5XYZQa9QgSYD4uIKKHIlsyDs3ZdwIugzZyFE2VD3c/s1wgnp89ZVmsmDA9g3K1b48NqKUFc/fec5X9BZWg62zKlCYXWihaJB5tEuQBEbLNZmb1wR2JMKRrsm2oEajVdkScsKEGL4jCQ+MA1inV1cgb0wtfGygPXkxCpLAosuOyjlxnl9SCLDFoj7DX9ff+uuNMOPe48kS2XVIoCD8rbSTOwuB98Un6+rV4+QOGYQwHFBZSkE71r0Cso0wua6l3CKgKJGF9TZfaqk+j7uTUIsfO3iNlfSHtHwHLbtio/Pd4Q7SD/BmT3YuEUUVkw7ueerE8Lfquth0MaV3MfdYtGKgHtN5D4T+GtqHieiLRt7lYFiFGkvda/dsqzezC6xYcBo7nzXVusCS0yo+9hKIm6d2mZaC0zn3C/gZqVFPJL3Us91ERPn7UeKzxzH8sIr1mT56CfecH1ikQ+cF7uIHKQZyWFg78dnu+PxU2zgRx86cjqZ12kMG08ic2QyJ9O8Q8fX72NbN5b3HGWle90bD6bh23dvujKI3e4W6xg8CCfdvHZOAfbqo9XhIKigvr89oh4X6d0Skha6cmM4ZKyJGjZrbYlt6wFGj0vQCQscZmdzD5+FUZdYuoG52e9sdDB0cUY4PUS9Vp1n5QW/ZskIoamGbuZ4+l12IkiqC6xfW3pxu44en21K3mcfBcDAbcXeBiau/rHwVq508CUhPZGIvXp5B8AHatem4Rc+3itDnaZmhmQz1yIAQRr5+6TSCwfrlaN7Sbat7PhYb5ofLtWUrlkNN5qa186om/HUgKiFcvQynajscsmDR0edmL+cTs1r3/AgFNyUsfUZ4S96x3EC1RGjlG7BrfMZBjbQ+DZxTPAZqz8fisfqsuOVbO/4ITfpK9ezSq2v5mPd8zOnR0UMsAFayUErXDr9qv7PWwJUUxRmk/5t3CT9JUm82iJHEANSfJDfnWORXcAKCq/jqsBCY7c+bVzy7/zAS6OC9Qhov24VXCtyQZHAYu9cmxA0xo/7z/4rWZ9KxbnQceUU225s26NLziGVW7OXt42joBuYsLvaOGo8blKrUHbnyb/Fay0zRsQvJT85eCzgSE2vqRDmWrvzzdPrJUIbR7SpXYVXkGxUz1gr2CyXxc7HuZ45udGzp4mU/j778u5wi+YDj4HIKUC4wuG6KrObemWCasNRSnaRida/S2bKYKW8q0IkA66L/icgFPng=
+// DATE      15-10-2024 11:20:20
+// VERSION   Algorithmi 24.09
+
+
+BEGIN MAIN_PROGRAM_NAME
+        READ REAL nh COMMA ch COMMA td "Escreva o número de horas trabalhadas (nh);\nO custo de hora trabalhada (ch);\nA taxa percentual de desconto (td)." 
+        DEFINE REAL st SET 0 COMMA vd SET 0 COMMA sl SET 0
+        EXECUTE st SET nh MULT ch
+        EXECUTE vd SET ROUND_OPEN td DIV 100 ROUND_CLOSE MULT st
+        EXECUTE sl SET st SUB vd
+        WRITE "Ele trabalhou "  COMMA nh  COMMA " horas;\no salário bruto é igual a "  COMMA st  COMMA "€;\nele teve um desconto de "  COMMA vd  COMMA "€;\no salário líquido é igual a "  COMMA sl  COMMA "€." 
+    END MAIN_PROGRAM_NAME

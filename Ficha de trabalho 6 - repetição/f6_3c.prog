@@ -1,0 +1,18 @@
+// ID        D5zkzQdCLQpqAKpfhDThkaCyf1zPm2ahG8vo2zQKG3zQiKCIw/ADafoIyRJoUKv3LcDXQXCaqNt103ZLkZi8ZvQZxxjZIVPg1QHNngvkJ7lgPXJzy2VWCaNS1Fmk2vMW6neFu2kcawQoJfXYgwdFRONaE3I23Uh7RcUKANp2zhzBVomsPrg2NnPM5U9HQwKstilklrDay8WBUGdzzluOQjObc4NnKJ02ElaRPbg3ZOKwulVRoWegk4iv06c5QKFdB7amOzwzs5v6/rhK32dWjuO6zQeBMnoyHhoV0O/Q+plPlu+yNcwB5RCdqemYlgZjiFBU0E0vMK9NczmVagEFh2AWT3Ty/aivlHRi0vPc95i3GegPMjoPibDs38SNWm/a1yZr3yBpPrtC6xkYqVrmF2lfgHrdWtfNWNeQXMoiW1pce4p0kUA2Y5/DRVrKp0IYK8FMKItn0TiHns+DzW3QJnQG/CPfbiWyoI7yYhj+mrr5tOmJGsqal+Xdb5cfOQ47LOVxCoOUgr4sOZ7r1m/Jhu0JbaD9AAz8ZzP8BMh3upM8C9SwL49wETXcRkyADnOiuAJBcNUf3OPt487nus9xOHiGZe74eppe8mjbvsFrP4jIlaQ+qTpRMKGujukua0KvVpVZcVyjBmI5c1SAbuAa25ftLTH38xHVutYC8d33Afhz+Otq26Oac/EMVympjJNbhiBIoSWezk8qaxRhFTQYsOCEPhprezU1TVh2QlmzudFjZgVfkJLLEYyhl+MGe+u1eIGLnUnLb2qK4IR+m70hGaTElhV/Ig/A5r0uvyE3FjU0PiKPmdGhAn/7UszCwhpSP57/wo2zcodLCoffAvs8Q921BjAvs7yR+acKCtU4txalI062PHgWfab7Wz6VYyHUl33Vl2Hrp+BIVp5KYT8bBEg3gf3evqc/XcZ8v2Irr1BgzpaU/T/fLVcE2iwn1RXU7cx4nUMw7LWNPnIGLNEIS9tjzK1Yr6mLpYw21ygSkqlCpk/qneqdgGi0Ht+X/43cMv2TIrlx3vkN4O9Dp16lM2kifny/6ca829guQ+837WhWPoy+6NmE/GS41PLcCGkEkQU41N0PiKXCU67KaVVQdqhm8TVV2v/W0rtfry7QwAC7mv6LqA3seA==
+// DATE      13-11-2024 12:36:49
+// VERSION   Algorithmi 24.09
+
+
+BEGIN MAIN_PROGRAM_NAME
+        DEFINE INTEGER som SET 0
+        DEFINE INTEGER prod SET 1
+        ITERATE INTEGER cont FROM 1  TO 16  STEP 1 
+            WRITE "\n"  COMMA cont SUM 1 
+            EXECUTE cont SET cont SUM 1
+            EXECUTE som SET som SUM cont
+            EXECUTE prod SET prod MULT cont
+            WRITE "\nO dobro é: "  COMMA cont MULT 2  COMMA "\n" 
+        END ITERATE
+        WRITE "\nA soma dos números\nde 1 a 16 é: "  COMMA som  COMMA ".\n" 
+        WRITE "\nA multiplição dos números\nde 1 a 16 é: "  COMMA prod 
+    END MAIN_PROGRAM_NAME

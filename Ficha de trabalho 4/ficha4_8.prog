@@ -1,0 +1,13 @@
+// ID        S5w0wX9fWwpbADF/axdA5+d0/u5tJ8uF4kj2/aQuF7G3IkRpfTOesTCxPtbKdkMvWYlCvxvbmRlqa66GVoR0vzkDF5JlrZd4lv5R5Tq9EOwwrh3oJmgt8d7KsoTnBx3iUc/wcpw0ba2rxpTWsZrHrBWNGinlh14RPs7Rslav4XSUnF2413dQZaDuAsCjg+rxUOcBlgL2eTvNhUv5Y4bBd0pAiH+E2Fl4Qeq9x4HAosChVg/lWDy/sC/cuYG/JZPMzU1PuhE6aunLVj2AjW58AqOHJhj7h64PIT3cNZB/h3gyuJunfp9pS/LazIbGlHOxqmxqoKdULy1o8DS3PeDcSTPlUrS+Eenh9z8iO9rhgcf5OCKupdsfXVuYMe8gOLOhidzTZLemwoGJnTJN7H92gKcQG3ZLmuPruujZIlVv3jOV8V5nZa7l94yxDc2qhJzRC7vix0dyIYPqCUeNhkD46nh228d4TPeLj/2QXyDdLuMlgELevKwUWQJc2mDSbzg2CTtoOyrM/vQIP7z/bFlfokKZOg0+rTaJgqvRaNDHc3tEc0cPbazWo5tpXm2qtDxsv5Ucw3ne42/WhQrf3FBDkXt9LpSUyTN4EMwLkc7w63VIGRBzR9cSUNYnabfQgnjA6e3+JfXQo2Mm6Ci9X7Ggmb2UYYzzUuRYDyKLfbm6eafb1s+we8DPGflC8RFyCNtlY+rpt6AvAKCxrKoUbkF5HqpmhkzZx33B7lTCFZEwnSL56lfWVo6NRRdkAyzBXOZs4W4gaa+EukKRUCjPzXyW/WlnvzT8NCnMa3a6yxKByXxNSboMrBYeiejlEaugOFF5T125mXu9fvcnZbyUgliFheLZf2aSSsB5pf6tkO2y5wemGYaM1BvEd0JvejKIiuXv1/ixJ2uN7oR63btGiHCWXyjvL8QyvsNAbh/oG2g4qpDDuQPrKODxS4leI2eP1pCvVdp0zj0sJSpLklNvv+Re881SGcfmH96ejDrZoGHovMQSxpPjObK5WiunnD9djr004AkAi+noi/oFq3g=
+// DATE      02-10-2024 12:23:14
+// VERSION   Algorithmi 21.11
+
+
+BEGIN MAIN_PROGRAM_NAME
+        READ INTEGER seg "Duração do Evento em segundos." 
+        DEFINE INTEGER hr SET 0 COMMA minu SET 0
+        EXECUTE hr SET seg DIV 3600
+        EXECUTE minu SET seg DIV 60
+        DEFINE INTEGER rs SET seg MOD 60 COMMA rm SET minu MOD 60
+        WRITE "A duração do evento foi de:\n"  COMMA hr  COMMA "h"  COMMA rm  COMMA "m"  COMMA rs  COMMA "s" 
+    END MAIN_PROGRAM_NAME

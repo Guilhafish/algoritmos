@@ -1,0 +1,13 @@
+// ID        55w80t9CzggfAK1fqcpNtYjMbjdKA7etLGuvaWdZtBQyxEARZ89F8bQNEULKFL7ZmQ3HM/A1AwonFETJFsdP42SdHbNcYSwlwiuH2qfXmLhDYo16zId6nSz9RhSY9Yf+xBRopQUJFlzgSIbk5TKnVkc+/ucmh9HUxXwph9+nbBdEEgHrnl1Fa7kKPe3dHHxEGZtiedz+5YYxpDClkwxbcJVBOlaN8CL5H/TFa8qawbjuMO6SGikQAbJ3/krJM9sJtPXdW6d9+6vCIrvV8LgKchwrlMLaBNcvmA8N0m2F6/tTPSkkW/Hls2giARfQx3SA1+otP6LDXjQMcgh60Np31QwfDj2XMSdZl5lkpTDOJUKsMibnO860UlXuBqqbWTg6Hh7Oy/JvJjNNiVONTqt/+YqpbtVjiDVEIyw39puUJgGXb0SxvZgR4mOqpPdBsyTmTf1D2I8MeAHM2ia4qU/ov5JPWGMXUTG/WCYL+nvTUWzy3RMvggGZewgdzdd+c/c4Fb2VHd39ciLmob/N/FjFpRbMkBsfwore3EQYzY79nT+H4NiAR3A8+JRnumhr33KrIMN/tecVb3z+5ZxgqICQ/FMQmWPPS7OaMwoJsbjuE8DlLfU7ht1g4kwcH4Rq0Yp3sOX6ybHROgZX0pS8BnccN0XV4FDZBp4xm9abn2QxI0zJEWpZVuxypuzGdfssv3vytts/P6LQ/CRuqmYPrJt7Bm0Xy85a+6DHoubVBp/ZDrvLvmC7aUzs2W1zA9Rg5gk5nOTwD0CbvwZ+Ol1pnn57O7PbGNxqdZ5pqjFJDYRfhZfYOczpZkRSu/fTcdsyPSssRX5isjNwqSRyRtaSdNiipbwu+qt13KNAVtLHEqSYraKsXy7hwURy2j0prZifbal/e6AKvugw4rv/xK1qr7rO4EuKbAtuYawbditUnw8UQWK2gDg+yWKinx1+6yy8pc0LIKwGSi7TjqeuPlSfk/UHD7qfmAg3nQTPmZNY51XPDv/bnu0EbBkhzAw5eOPPCfcHgRUhCw8fQhoQihW/FGDQ762ltzSm0EbOw8fLPxkf3KVi4vdU0B0AC6KHiRgNvXg=
+// DATE      01-10-2024 11:32:41
+// VERSION   Algorithmi 24.09
+
+
+BEGIN MAIN_PROGRAM_NAME
+        READ TEXT pecas "Código da peça?" 
+        READ INTEGER valor "Valor da Peça comprada" 
+        READ INTEGER quantidade "Quantidade de peças que vai comprar" 
+        DEFINE INTEGER vtotal SET 0
+        EXECUTE vtotal SET quantidade MULT valor
+        WRITE "O código da peça é "  COMMA pecas  COMMA " e o valor total é "  COMMA vtotal  COMMA "." 
+    END MAIN_PROGRAM_NAME

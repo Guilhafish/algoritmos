@@ -1,0 +1,15 @@
+// ID        X5yJzgd/0woOAKavZ1lcek/qMi32zd+qKmuPOtHVU9n9i52If4k3LX1IleN6/1f4XM0YfISy6Rt2njjH+fpcvs2Mm2zN914GXN838zXzEO8obGcPHw9rowliOcf44iDb/6AQzHCm7MT5ZocodUT7Bd3LkjahZy9GWC10ZSA6hqwsRisP1YGeXUi32B4urzjFcO92hiQ26iLQEeJBp14U0v/eUgGo4znsbaNnBn+I9cCYnw4YifmPWr++lC3wb3sY4NLu+kUWNn40msLkQnHxLGr3e2urNuExqN3Ib2lVfn8GUZnZNkwm7fI09wvRgzK6TtFTwOMBVVMUsrCRfuHosxwA6hG1uDN3jqcr3js7aKAPYnu2nquRU+4GfLjqeofy4bGqWt1wM5xlMJQQcepN+bX62plRhXV/l//Jjd4pJlbT5izC4x17DQjtIr7nEmTlzKhcyCBKEfD1qAl43EQx0eagrGBYz4zsttIddtJL7BHNq93/asKpggErkZ3PecuucslpiWezB5beM6WsoefGOGQZuSre1vnNfznvHFTqbC94xD52Hn1hS8sIVSV46YAs3dpmfM2Bi3Gu8gI5P65pRTBwgiumfnbWDl9+NP/Ebwi3PJ71llBMlDt68jKWXykKlLtf7dC6mThr4zWccQXXD+sbkrnpFmoRCnJsfCluTDN9XlEu69/tpaYoRAI58p/OwwO2ieIkbHv6Q2mitHkDTXHK+URTt0iVfhnuVWYcWoYXGSXuyDPo/B9MjkAHYXKjMeamvIQ4ZsMD/BRQrH67FUb7OPXPI43PTsrT+RSK8TOcRSOQ21cJdLX88S92rar7rgKYNz2ztZKcsR1nhDSoOMwHRRGQClfD5LQc+pwZgB+yZHTsUFnBPJzrtUTVfLubndzPlFeA/SU1IRBjJeyS7M96qEOr21lRrUamI0JAmImrA9cf3OPHqezNJEYdnvls1/bnLWh7klamV+seZy4naL0cIthDgKhbEdZxV4q+yiVtDb1R+sc44m0iHJfnnbVM7tDw0QCv4f0HIA2ceA==
+// DATE      15-10-2024 12:16:21
+// VERSION   Algorithmi 24.09
+
+
+BEGIN MAIN_PROGRAM_NAME
+        READ INTEGER num1 COMMA num2 "Escreva 2 números." 
+        DEFINE INTEGER prod SET 0
+        EXECUTE prod SET num1 MULT num2
+        IF prod LESS_THAN 10 
+            WRITE "Produto inferior a 1 dezena." 
+        ELSE
+            WRITE "Produto superior a 1 dezena." 
+        END IF
+    END MAIN_PROGRAM_NAME

@@ -1,0 +1,17 @@
+// ID        cpyHwRdDawwtALN/zxxV0t2qD6FwPKx9nvq5X2muiGaSw26SjmR0fdrDKe/aSwEpzXsV3TV342s5V1/bcqfw1/us7jy11EpJGUSfkrn8qmhEeln0EOyu8wo8qn7z9uuBngUmHrxe3N0SHeNgAuNTUgp6V/SnYJmZT54zs9imzvbBtBfAv73yirFqOKogmKij0OFvx/4G/xqbLqzG2o0XjOGWHGVk9fwfuzT/+UDl2XnLdj1bAglknRNQf5G9SDzFuSJigDYrmnfOBRrgj4zhLRddBoqajaV8hAL+FZsU21SVf55I4WO2/e2cMNPLiHhxl3ZVRwUoud2pYcCyAY6Rc9T5MuW1uO4mNPImCjKSw0rWNV45tbsuyG4c/eeyKk2Pki3T2kkoGHP9biyFyMfTV3uXjLFhh6JDoTssoPnK3khQ1EwsaCt0cAYOSkHSmpLIigbdX/ejTigitK9Gpu0Op7R/me2tF8BRsfNcVfGsYs+x+DKu5oJDQ14tkBaaHsTqB3eI3NqBXMhYWhLotdGVonOQs9c7Ic9CeWKUM1Uy/ILAfZBODRBmn9WpBxPkma7pKOlpR61s20D2yccsJ/l8gRWAR9/YU+0erxcrqmRg/zNpfHmzHmcDhq8gicIVjq3FW978AlfAmk3QY0GbywjBWzj/Gu8f94+lqU511lJiKVcPuwfKpjUVoll701tvhJskpDG73NQ7+Nz6RBYAWe1gTIg+YByWTPYvYKVH+OmWor64KDl3t3qbSTQhNHDHoJSvOwaO0e+z37zSabZFTYzSURcVXVoW+57JxgiW8reqPou55qApKYka5x3SDbGLnUvqgYx5NchcsibMyNOga6BSza9XymQYm8WZh0ybh0jzl0tDb31YVxRQgpZULSYJf0buBfBMbr6fd7WFUSKcuiVm/5L9oWuPvtesF1sfaZWHSs7+PtR/c9bB7xmWqnWLtEJmtS6V9mHWEABnBos8l+EYvhKhc6w/oeitYEY+RBokvMdwcUkq9efs99Uf52ixeA4y7vkBg7a6Ni8T7U5N9sPY3spb2V7ztDt4RJh8dVOQ8OGCB8NMZya+iGHcVQqRGsHgm4qLXvbwQ667l2ljzJ58X0QvRSfX2YO4ttjz/Erdz0JVEo6Ly4JkF63s5dK8+Zc4X6d4+2eZNoKW+U53c0ooe1Vs/fe8TuMfKswXXcTGJGwwzWKH/3qwlGIv0FAK7+XxeFFRvePwtwBl6fqJ2AUxeA==
+// DATE      05-11-2024 11:54:04
+// VERSION   Algorithmi 24.09
+
+
+BEGIN MAIN_PROGRAM_NAME
+        READ INTEGER numa "Escreva o número do aluno." 
+        READ REAL trab1 COMMA trab2 COMMA trab3 "Notas obtidas em trabalhos." 
+        READ REAL np "Nota de participação na aula." 
+        DEFINE REAL MFINAL SET ROUND_OPEN trab1 MULT 0.65 SUM trab2 MULT 0.75 SUM trab3 MULT 0.85 SUM np ROUND_CLOSE DIV 4
+        WRITE "\nA média final do aluno "  COMMA numa  COMMA " é "  COMMA MFINAL 
+        IF MFINAL LESS_THAN 11 
+            WRITE "\nO aluno vai fazer o exame." 
+        ELSE
+            WRITE "\nO aluno não vai fazer o  exame." 
+        END IF
+    END MAIN_PROGRAM_NAME

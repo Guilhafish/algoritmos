@@ -1,0 +1,15 @@
+// ID        YpxywQZ7DQh+AOC/oVqdOof36M7+ro2ra9dL29xtW9UBQckEiQagKVYRTokjd129qVHT1GfnqdOB5u1/z/OIn+k+CPvF8oL4s67Sv5/pJBH6OvqwMnCM1wuzoDiSzYYXXf7GR3bI2lEC5jlqjUF3VvOgGftk7KyJmvT0cl9TVC76trfCtBx47z4QkKJH8iNoG/0dfnGqk8b93y8CErlyXHbzBhURKm56oifGkLyA6qa0HMD3zqQ3vlczc9QZzzO/oNTfeyqCbNQO8rlE0qWlgm9ir7IEG02l25Zk307JCLDb3GvWsLyboqELFLFQwQd4d+7/edZMRe5Ugr5q2PDOHUKylddZYocJM2fS6gmP1ZtNsXe23epheRTsGhW3JAJbGw8FQOBcZvggHoA655p6okunW53pmfDZ62qgvb0g1lq6KaOPcYm870UEhnPW8otyQR1YevkLLoMDmm3VE6DjvLGfAxoH4N+u5I38vQgv2me6uFOyNKv5Gr4sRowzVb3ghwL4VOmpfNetD7HEA8HdZbShieHg1WpLyizuoztDkLeITgfl2eXa+z1wpTJegecdghcmfCM3OEUhKnI5khnE5BGd2box7a28BAiNCBupTHxT/9e3uUrZ1WgGx76hHHWBksqhZf0hezvaOPuLyDi/UfRSThpBEj6EM2xieU6ZslCjGsFEZf1q7fv27eC28W2MOFUzT4/1Uw9h7zDhfg9owQ6uhwFrt+e5cN8FpaZdERYeAqHBkVwi/IMc9GJUZzErCBfZ8c9jXlPLOJotevZdhxbcPPLa3oAfBxArGk8FfFIZmAfam6pCxdzIayWdM86sUinzdtkOS/c5yZqk08Fw9P1KRtBpsNdwTBqZm1sSRrrZqr5mEVc9yS4UnbRFTYr2sHAzecwb3Bjs9jwllaRuER1dbylSopx7tUT/NwPUr8XSf0Cfn72AJtSVl4tiQgGaqn4L+LdqK97fmY65TS+NMIzrL/ij4yw15vo76ipNIokJ5A1ThJAQMWlYboEUGkzTdv+2gJuwRjeW967O0L0APOH/CZUFtXg=
+// DATE      15-10-2024 12:13:45
+// VERSION   Algorithmi 24.09
+
+
+BEGIN MAIN_PROGRAM_NAME
+        READ REAL test1 COMMA test2 "Escreva a nota de 2 testes." 
+        DEFINE REAL med SET 0.0
+        EXECUTE med SET ROUND_OPEN test1 SUM test2 ROUND_CLOSE DIV 2
+        IF med GREATHER_THAN 10 
+            WRITE "Você foi aprovado." 
+        ELSE
+            WRITE "Você não foi aprovado." 
+        END IF
+    END MAIN_PROGRAM_NAME
